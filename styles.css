@@ -1,0 +1,62 @@
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    color: #212529;
+}
+
+.especial {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    color: #33A370;
+}
+header {
+    background-color: #E5E5E5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-title {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    background-color: #33A370;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #267D56;
+}
+
+.hero {
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E5E5E5;
+    text-align: center;
+}
