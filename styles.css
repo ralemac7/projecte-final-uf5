@@ -47,7 +47,7 @@ nav li a:hover {
     background-color: #267D56;
 }
 
-.hero {
+#hero {
     background-image: url('img/hero.jpg');
     background-size: cover;
     background-position: center bottom;
@@ -61,22 +61,22 @@ nav li a:hover {
     margin-bottom: 40px;
 }
 
-.video {
+#video {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.lugares {
+#lugares {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.contacto {
+#contacto {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.visitanos {
+#visitanos {
     text-align: center;
     margin-bottom: 40px;
 }
@@ -129,14 +129,14 @@ nav li a:hover {
     margin: 0 auto;
 }
 
-.contacto form {
+#contacto form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.contacto input,
-.contacto textarea {
+#contacto input,
+#contacto textarea {
     width: 100%;
     padding: 8px 10px;
     border: 1px solid #cfcfcf;
@@ -144,12 +144,12 @@ nav li a:hover {
     box-sizing: border-box;
 }
 
-.contacto textarea {
+#contacto textarea {
     resize: none;
     height: 140px;
 }
 
-.contacto button {
+#contacto button {
     display: block;
     margin: 0.5rem auto 0;
     background-color: #33A370;
@@ -160,7 +160,7 @@ nav li a:hover {
     cursor: pointer;
 }
 
-.contacto button:hover {
+#contacto button:hover {
     background-color: #267D56;
 }
 
