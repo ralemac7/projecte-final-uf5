@@ -7,8 +7,6 @@ body {
 }
 
 .especial {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 700;
     color: #33A370;
 }
 
@@ -60,10 +58,27 @@ nav li a:hover {
     align-items: center;
     color: #E5E5E5;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .lugares {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacto {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.visitanos {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .galeria-lugares {
@@ -71,6 +86,8 @@ nav li a:hover {
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 0px 10px;
 }
 
 .lugar {
@@ -101,4 +118,68 @@ nav li a:hover {
 
 .lugar a:hover {
     background-color: #267D56;
+}
+
+.card {
+    background-color: #E5E5E5;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 720px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.contacto textarea {
+    resize: none;
+    height: 140px;
+}
+
+.contacto button {
+    display: block;
+    margin: 0.5rem auto 0;
+    background-color: #33A370;
+    color: #E5E5E5;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #267D56;
+}
+
+.visitanos .card iframe {
+    display: block;
+    margin: 10px auto 0;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #E5E5E5;
+    color: #212529;
+    text-align: center;
+    padding: 12px 20px;
+    margin-top: 40px;
+    font-size: 0.95rem;
+}
+
+footer p {
+    margin: 0;
 }
